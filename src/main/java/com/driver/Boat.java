@@ -16,7 +16,7 @@ public class Boat implements WaterVehicle {
 
     @Override
     public int getVehicleCapacity() {
-        return 0;
+        return this.capacity;
     }
 
     public String getName() {
