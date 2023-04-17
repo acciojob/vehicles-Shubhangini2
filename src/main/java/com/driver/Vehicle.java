@@ -53,7 +53,7 @@ public class Vehicle {
 
     public void stop(){
         //Stop the car by setting current speed to 0
-        this.currentSpeed=0;
+        currentSpeed=0;
         System.out.println("stop method called - The vehicle is stopped");
     }
 
